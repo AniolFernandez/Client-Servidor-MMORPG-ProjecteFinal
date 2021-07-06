@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7126026611315504057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7126026611315504062}
+  - component: {fileID: 7126026611315504063}
+  m_Layer: 0
+  m_Name: NetworkManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7126026611315504062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7126026611315504057}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7126026611315504063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7126026611315504057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c0607b84ab310d47989eb47d734f896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ip: 127.0.0.1
+  port: 7777
+  messageBox: {fileID: 8421379904511544820, guid: 50ca90820d2bb914ca341dc20554b20d,
+    type: 3}
+  msgbxInstance: {fileID: 0}
+  playerPrefab: {fileID: 8413973205903035139, guid: a8a948db5b1e3544db07b4c7dab79759,
+    type: 3}
+  otherplayerPrefab: {fileID: 7684554575730510339, guid: 3fda7a332ad25a74e893acf3ae56c3a0,
+    type: 3}
+  damageToPlayer: {fileID: 7264854087706758807, guid: f7a64b5b724750b4b9aaa1bba31a585c,
+    type: 3}
+  Enemy1Prefab: {fileID: 6530064815330096274, guid: a42e7941c1cc0d54fa7d91b7495f4d81,
+    type: 3}
+  goldBag: {fileID: 1996696598345126739, guid: 2b0c2c80d927c354a983118f6ae2c414, type: 3}
+  gold: []
+  timeRspwn: {fileID: 0}
+  chat: {fileID: 0}
+  playerHUD: {fileID: 0}
+  otherHUD: {fileID: 0}

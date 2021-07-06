@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServerConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ServerPort>7777</ServerPort>
+  <DataBaseIP>127.0.0.1</DataBaseIP>
+  <DataBaseUser>root</DataBaseUser>
+  <DataBasePassword>123456789q</DataBasePassword>
+</ServerConfig>
